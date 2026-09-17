@@ -3,7 +3,6 @@ HTML COURSE STARTING FROM (17-SEPTEMBER_2026)
 
 
 
-### 📌 Project Progress Log
 
 ### 📌 Project Progress Log
 
