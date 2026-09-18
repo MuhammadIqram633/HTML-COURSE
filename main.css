@@ -5,3 +5,13 @@
                 background-color: #000000;
                 color: whitesmoke;
             }
+
+            a{
+                color: #00ff00;
+            }
+            a:visited{
+               opacity: 0.5;
+            }
+            a:hover ,a:active{
+                color: #ff0000;
+            }
