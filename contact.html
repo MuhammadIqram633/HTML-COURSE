@@ -12,13 +12,65 @@
     <header>
         <h1>Contact Me</h1>
     </header>
+
     <main>
-        <p>If you have any questions or would like to get in touch, please use the information below:</p>
-        <p>
-            <strong>Email:</strong> <a href="mailto:iqram@example.com">iqram@example.com</a><br>
-            <strong>Phone:</strong> <a href="tel:+1234567890">+1234567890</a>
-        </p>
+        <article id="contact-info">
+            <h2>Contact Information</h2>
+            <form>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Password">
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+923001234567" pattern="\+92[0-9]{10}">
+                </p>
+
+                <p>If you have any questions or would like to get in touch, please use the information below:</p>
+
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <p>
+                        <select id="contact-method" name="contact-method">
+                            <option value="email">Email:</option>
+                            <option value="phone">Phone:</option>
+                            <option value="social-media">Social Media:</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <p>
+                        <input type="radio" id="newsletter" name="signing" value="newsletter">
+                        <label for="newsletter">Subscribe to Newsletter</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="updates" name="signing" value="signing">
+                        <label for="updates">Already Signed Up</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="Agree" name="Agree" value="Agree">
+                    <label for="Agree">I agree to the terms and conditions</label>
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </article>
     </main>
+
     <footer>
         <p><strong><a href="index.html">Go Back to Main Page</a></strong></p>
         <p><strong><a href="about.html">About Me</a></strong></p>
